@@ -7,17 +7,17 @@
 
 class Shape():
 
-    def __init__(self, weight, height):
-        self.weight=weight
+    def __init__(self, width, height):
+        self.width=width
         self.height=height  
 
 class Rectangle(Shape):
     def calculate_area(self):
-        return self.weight * self.height
+        return self.width * self.height
     
 class Square(Shape):
     def calculate_area(self):
-        return self.weight ** 2
+        return self.width ** 2
     
 rectangle = Rectangle(30, 2)
 square = Square(3, 3)

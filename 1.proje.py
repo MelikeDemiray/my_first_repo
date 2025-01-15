@@ -11,15 +11,15 @@
 
 class Rectangle():
 
-    def __init__(self, weight, height):
-        self.weight=weight
+    def __init__(self, width, height):
+        self.width=width
         self.height=height  
 
     def area(self):
-        return self.weight * self.height
+        return self.width * self.height
     
     def perimeter(self):
-        return (self.weight*2) + (self.height*2)
+        return (self.width*2) + (self.height*2)
     
 
 x=Rectangle(3,2)
